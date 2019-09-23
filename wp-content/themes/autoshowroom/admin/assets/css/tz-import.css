@@ -1,0 +1,222 @@
+#tz-import-form {
+	margin-top:20px;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #eee;
+}
+#tz-import{
+    padding-bottom: 50px;
+}
+#tz-import .xml-count {
+    background: #777777;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 20px;
+    padding: 4px 10px;
+    position: relative;
+    top: -3px;
+}
+
+#tz-import .xml {
+    -moz-box-sizing: border-box;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    position: relative;
+	background: #2f2f2f;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    float:right;
+    width:23%;
+}
+#tz-import .xml:hover{
+    border-color: rgba(30, 140, 190, 0.8);
+}
+#tz-import .xml:first-child{
+    margin-left: 0;
+}
+.tz-demo-img:after{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+    background: rgba(255,255,255,0.5);
+    opacity: 0;
+    z-index: 99;
+    content:"";
+
+}
+.tz-demo-img:after,
+.tz-demo-img input.button-install{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.tz-demo-img input.button-install{
+    background:rgba(0,0,0,0.75);
+    border:none;
+    padding:10px 25px;
+    border-radius: 2px;
+    color:#fff;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top:45%;
+    right:25%;
+    left:25%;
+    height:auto;
+    width:50%;
+    z-index: 1000;
+    opacity: 0;
+    box-shadow: none;
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+.tz-demo-img input.button-install:active,
+.tz-demo-img input.button-install:focus,
+.tz-demo-img input.button-install:hover{
+    background:rgba(0,0,0,0.85);
+    color:#fff;
+}
+/*.tz-choose-demo-radio:checked + label input.button-install,*/
+/*.tz-choose-demo-radio:checked + label:after{*/
+    /*opacity: 1;*/
+    /*-moz-transform: scale(1);*/
+    /*-webkit-transform: scale(1);*/
+    /*-o-transform: scale(1);*/
+    /*-ms-transform: scale(1);*/
+    /*transform: scale(1);*/
+/*}*/
+#tz-import .xml:hover .tz-demo-img:after{
+    opacity: 1;
+
+}
+#tz-import .xml:hover  input.button-install{
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+
+}
+
+#tz-import .xml-name {
+    background: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    overflow: hidden;
+    padding: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#fff;
+}
+
+#tz-import .xml-actions {
+    /*background: rgba(244, 244, 244, 0.7);*/
+	border-left: 1px solid rgba(0, 0, 0, 0.05);
+    bottom: 0;
+    height: 38px;
+    padding: 9px 10px 0;
+    position: absolute;
+    right: 0;
+}
+
+#tz-import .error {
+	padding:20px;
+}
+
+.tz-choose-demo-radio {
+	display:none !important;
+}
+
+.tz-demo-img {
+	position:relative;
+	display:block;
+	padding:0;
+    z-index: 1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+		
+}
+
+.tz-demo-img img {
+	max-width:100%;
+    display: block;
+}
+
+.tz_theme_options {
+	background-color: #FFFFFF;
+	margin: 0;
+	padding:0 2% 3px;
+    float:left;
+    width:72%;
+}
+
+.ut-import-bar {
+	background-color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+	margin: 5px 0 15px;
+	padding:20px;
+}
+.tz_action{
+    position: absolute;
+    bottom:-70px;
+    left:0;
+}
+.tz_action .button-install:hover,
+.tz_action .button-install:focus,
+.tz_action .button-install{
+    background:#2ea2cc;
+    border:none;
+    padding:10px 20px;
+    height:45px;
+    color:#fff;
+    font-weight: bold;
+    font-size:14px;
+}
+.eg-postbox{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    box-shadow: none;
+    margin: 0;
+    padding-left: 160px;
+    padding-top: 15px;
+    position: relative;
+
+}
+.eg-postbox ul{
+    display:none;
+}
+.eg-postbox #esg-import-data{
+    background: none repeat scroll 0 0 #2ea2cc;
+    border: medium none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    height: 45px;
+    padding: 10px 20px;
+}
+span.ess{
+    padding-right:30px;
+    font-weight:bold;
+}

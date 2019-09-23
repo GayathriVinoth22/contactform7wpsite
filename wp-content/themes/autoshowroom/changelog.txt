@@ -1,0 +1,247 @@
+Version 1.8.6 (16-08-2018)
+- Update:
+ + Add car name in Request Information form.
+ + Add icon cart in menu.
+ + Add sold car in dealer add new car page.
+ + Add default WooCommerce slider.
+ + Add Blog style Columns.
+ + Add Blog style masonry.
+- Fix Bugs:
+ + Fix center button return shop in cart page.
+ + Fix sort by in IE.
+ + Fix change color in account page, cart page.
+ + Fix IE select style.
+
+Version 1.8.5 (14-07-2018)
+- Update:
+ + Update SVG logo.
+ + Revolution Slider version 5.4.8
+ + Visual Composer version 5.5.2
+ + Progress Car Dealer version 1.8.5
+ + Tz Autoshowroom plugin version 1.5.6
+ + Add excludes taxonomy in Vehicle taxonomy element
+- Fix Bugs:
+ + Fix login style for theme my login latest version
+ + Fix footer icon with fontawesome latest version
+ + Fix options in header element
+ + Fix load slider in vehicle detail
+
+Version 1.8.4 (22-06-2018)
+- Update:
+ + Element Condition Vehicles
+ + Visual Composer version 5.5
+ + Ultimate member latest version
+ + Progress Car Dealer version 1.8.4
+ + Tz Autoshowroom plugin version 1.5.5
+- Fix Bugs:
+ + Fix Count Compare Vehicles
+ + Fix responsive Quote element
+ + Fix related car by make
+ + Fix options in header element
+
+Version 1.8.3 (06-04-2018)
+- Update:
+ + Updated TZ Autoshowroom version 1.5.2
+ + Update Home Version 7
+Version 1.8.2 (23-03-2018)
+- Update:
+ + Updated TZ Autoshowroom version 1.5.1
+- Fix Bugs:
+ + Fix error MSRP of functions tz_autoshowroom_filter_vehicle_price
+
+Version 1.8.1 (20-03-2018)
+  - Update:
+    + Visual Composer version 5.4.7
+    + Revolution Slider version 5.4.7.2
+    + Updated Progression Car Dealer v1.8.1
+  - Fix Bug:
+   + Illegal string offset and array location search form
+   + Missing argument functions tz_autoshowroom_filter_vehicle_price
+Version 1.8 – March-06-2018
+  + Add Home version 6 multiple dealers
+  + Fixed light gallery element
+  + Update Progress car dealer version 1.8
+  + Updated TZ Autoshowroom version 1.5
+  + Update Theme options
+Version 1.7(05-01-2018)
+- Fixed bugs:
+    + Fixed error of Taxonomy Vehicle element that did not allow to link to detail makes and vehicle types
+    + Fixed error that could not translate information on Quote page
+    + Fixed error when editing Model
+    + Fixed color error in Quote page
+- Updates:
+    + Updated TZ Autoshowroom V1.3
+    + Updated Progression Car Dealer v1.6.9
+    + Updated One Click Installation
+    + Updated TZ Autoshowroom V1.3.1
+    + Update Send Mail Get A Quote
+    + Update Theme options
+- Features:
+    + Added Home Motorbike
+    + Added Header Style 5 in Header Option element
+    + Added Type 2 in Advertise element
+    + Added Style 2 in Counter element
+    + Added an option to select image in Service element
+    + Added Features Motorbike element
+    + Updated Image Gallery element
+    + Added Footer Type 2
+    + Added Upcoming option in Vehicle
+Version 1.6.7(05-12-2017)
+- Fixed bugs:
+    + Eliminated Color Panel Button.
+    + Fixed display error of Quote element that was not presented in Slide style.
+    + Fixed Illegal String Offset error when viewing Model.
+    + Added installing requirement of Font Awesome WP plugin.
+    + Fixed the error on Inventory page when sorting search results.
+
+- Updates:
+    + Added an option for both playing video and displaying images in Detail Vehicle.
+    + Added the comma to separate thousands groups.
+    + Edited Related Vehicles widget for allowing to edit image sizes (thumbnail, medium,large and full).
+    + Added Shop Option and Shop Detail Option in Theme Option.
+    + Added options to enable/disable Quote form in Footer Option and Vehicle section.
+    + Update Progression Car Dealer Master v1.6.8
+    + Update plugin tz-autoshowroom v1.2.3
+    + Visual Composer version 5.4.5
+    + Revolution Slider version 5.4.6.4
+
+Version 1.6.6(16-11-2017)
+- Add Feature:
+    + Add element Vehicle Quote Form
+    + Add Page Get A Quote
+- Update:
+    + Update plugin tz-autoshowroom v1.2.2
+    + Visual Composer version 5.4.3
+    + Revolution Slider version 5.4.6.3.1
+    + Update Progression Car Dealer Master
+- Fix:
+    + Fix Undefined variable: autoshowroom_page_class
+Version 1.6.5(07-11-2017)
+- Update:
+    + Add option image in element Server item
+    + Add options image size for Element(Featured Vehicle,Post Slider,Portfolio Vehicle)
+    + Link footer social popup
+    + Add Show/Hide Model,Make in Theme Options
+    + Add effect Element Featured Vehicle
+    + Add plugin Font Awesome WP in package
+- Fixed:
+    + Fixed Portfolio Element layout list
+    + Fixed Vehicle Slider layout Grid
+    + Fixed undefined menu setup theme
+Version 1.6.4(01-11-2017)
+- Add Feature:
+    + Add Element Features Vehicle
+    + Add Extra class name for Search Vehicle,Featured Vehicle.
+    + Added Gradient option to Row Settings in order to adjust color gradients.
+-Update:
+    + Home Version 4
+    + Visual Composer version 5.4
+    + one click install demo content.
+    + Add PSD in the package
+-Fixed:
+    + Fixed importation error that demo sliders were not imported using one-click installation
+    + Fixed Bugs WP_Error::$slug
+    + Fixed Bugs Undefined index: orderby
+Version 1.6.3 (06-10-2017)
+-Fixed:
+    + Price display in Portfolio element
+    + Install Revolution slider
+    + Data demo one click install
+    + Shipping form in checkout page
+
+- Add Feature:
+    + Add video for Vehicle
+
+Version 1.6.2 (25-09-2017)
+-Fixed:
+    + Option show or hide sold vehicle
+    + Element Vehicle Portfolio in tz_autoshowroom plugin
+    + Display feature image in vehicle detail page
+    + Display button Brochures in vehicle detail page
+
+-Add Features:
+    + Add type text in custom field of vehicle
+    + Add Sort by price, date in Inventory page
+    + Add choose sidebar position and select sidebar in default page template
+
+Version 1.6.1 (18-09-2017)
+- Fixed:
+    + Translate language in theme and plugin
+    + Options show or hide in Blog page, Blog Detail page
+    + Change color in Blog detail page
+    + Compare vehicle page
+
+- Add Feature:
+    + Add sold option for vehicle
+    + Add Price text for vehicle
+    + Add Price url for verhicle
+    + Add module Vehicle list page
+    + Add module Vehicle sold
+
+- Updated:
+    + Visual Composer version 5.2.1
+    + Revolution Slider version 5.4.6
+    + WooCommerce version 3.1.2
+
+Version 1.6.0 (19-04-2017)
+- Add Vehicle Search with custom fields.
+- Add language for Plugin TZ Autoshowroom.
+- Fix short description of vehicle in module and inventory page.
+- Update Woocommerce version 3.0.3
+
+
+Version 1.5.5 (24-01-2017)
+- Add options choose layout default grid or list in inventory page.
+- Update Plugin Car Dealer change max price(800000).
+
+Version 1.5.4 (17-01-2017)
+- Add Popup for Vehicle detail slider.
+- Fixed responsive home 3 slider.
+
+Version 1.5.3 (07-01-2017)
+- Fixed Error when update Car Dealer Plugin.
+
+Version 1.5.2 (06-01-2017)
+- Added Excerpt for vehicle.
+- Fixed Slider in vehicle detail page.
+- Fixed Sidebar style in vehicle detail.
+
+Version 1.5.1 (27-12-2016)
+- Fixed Breadcrumb of vehicle page.
+- Fixed Compare vehicle when delete all car in compare page.
+- Updated Quote items when no image.
+
+Version 1.5 (21-12-2016)
+- Fix woocommerce Element display on homepage.
+- Fix warning getimagesize in login page.
+- Fix one click install demo content.
+
+- Add back to top button in footer options.
+- Add options in detail vehicle page to show or hide fields.
+- Add options sticky menu.
+- Add Related car in detail vehicle page.
+- Add options to change icon of car fields.
+
+- Update woocommerce version 2.6.9
+- Update Revolution slider version 5.3.1.5
+- Update Visual Composer version 5.0.1
+
+Version 1.3.1 (13-09-2016)
+- Supported Theme my login plugin.
+- Fixed color options.
+- Update Visual Composer version 4.12.1
+
+Version 1.2 (19-07-2016)
+
+- Update One Click install demo site.
+- Update Header Options.
+- Add Payment Calculator.
+
+Version 1.1 (13-07-2016)
+
+- Updated Font Options for Title, Content.
+- Updated Vehicle inventory page options.
+- Updated Compare Vehicle page options.
+
+30-04-2016
+- initial Version 1.0

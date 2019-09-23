@@ -1,0 +1,1904 @@
+.um-form .um-misc-with-img {
+  border-bottom: 1px solid #eee !important;
+}
+.um-form .um-misc-ul {
+  margin-left: 0 !important;
+  list-style: none;
+}
+.um-form .um-misc-ul li {
+  list-style: none !important;
+}
+.um-form .um-misc-ul li:hover a {
+  color: #ff5400;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.um-form .um-misc-ul li:hover a:after {
+  color: #ff5400;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.um-form .um-misc-ul li a {
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  padding-left: 15px;
+  font-family: "Muli";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #222;
+  position: relative;
+}
+.um-form .um-misc-ul li a:after {
+  font-family: FontAwesome;
+  content: "\f105";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.um-form form {
+  padding: 34px 30px 30px 30px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+}
+.um-form form .um-row {
+  margin: 0 0 11px 0 !important;
+}
+.um-form form .um-field-label {
+  margin: 0 0 9px;
+}
+.um-form form .um-field-label label {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.um-form form .um-field-area input {
+  border: 1px solid #dfdfdf !important;
+  border-radius: 0;
+}
+.um-form form .select2.select2-container .select2-selection {
+  border: 1px solid #dfdfdf !important;
+}
+.um-form form .select2.select2-container .select2-selection .select2-selection__arrow:before {
+  content: "\f0dd" !important;
+  font-family: "FontAwesome" !important;
+  color: #222 !important;
+  font-size: 14px !important;
+  line-height: 32px !important;
+}
+.um-form form .um-field {
+  padding: 0 0 19px;
+}
+.um-form form .select2-container--default .select2-selection--single .select2-selection__placeholder {
+  font-family: "Muli";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #bdbdbd;
+  letter-spacing: 1px;
+}
+.um-form form .um-col-alt {
+  margin: 0;
+}
+.um-form form .um-col-alt .um-left input {
+  background: #222222 !important;
+  font-family: "Montserrat";
+  font-weight: 700 !important;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px !important;
+  letter-spacing: 0.5px;
+  text-transform: uppercase !important;
+  border-radius: 0 !important;
+  padding: 11.5px 0 !important;
+  border: 1px solid #222 !important;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+}
+.um-form form .um-col-alt .um-left input:hover {
+  background: #fff !important;
+  color: #222;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+}
+.um-form form .um-col-alt .um-right a {
+  background: #fff !important;
+  font-family: "Montserrat";
+  font-weight: 700 !important;
+  color: #222 !important;
+  font-size: 14px;
+  line-height: 20px !important;
+  letter-spacing: 0.5px;
+  text-transform: uppercase !important;
+  border-radius: 0 !important;
+  padding: 11.5px 0 !important;
+  box-shadow: none !important;
+  border: 1px solid #222!important;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+}
+.um-form form .um-col-alt .um-right a:hover {
+  background: #222 !important;
+  color: #fff !important;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+}
+.um-form form .um-col-alt a.um-link-alt {
+  color: #222 !important;
+  font-weight: 700 !important;
+}
+/* Bounce To Right */
+.hvr-bounce-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-right:hover,
+.hvr-bounce-to-right:focus,
+.hvr-bounce-to-right:active {
+  color: white;
+}
+.hvr-bounce-to-right:hover:before,
+.hvr-bounce-to-right:focus:before,
+.hvr-bounce-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+form#insert_vehicle {
+  background: #fff;
+  padding: 35px 30px 50px;
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -o-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+}
+form#insert_vehicle div.mce-toolbar-grp > div {
+  padding: 4px 0;
+}
+form#insert_vehicle > button {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: #000;
+  border-radius: 0;
+  box-shadow: none;
+  border: 0;
+  padding: 15px 45px;
+  height: auto;
+}
+form#insert_vehicle .vehicle-spec {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+form#insert_vehicle .vehicle-spec .vehicle-price {
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+}
+form#insert_vehicle .vehicle-spec .vehicle-price label {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin: 0 0 11px;
+}
+form#insert_vehicle .vehicle-spec .vehicle-price input {
+  border: 1px solid #dfdfdf !important;
+  border-radius: 0;
+  height: auto;
+  font-family: "Muli";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #868686;
+  padding: 10.5px 20px;
+}
+form#insert_vehicle .vehicle-spec .vehicle-price input:focus {
+  border-color: #ff5400 !important;
+  box-shadow: none;
+  outline: 0;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-number {
+  line-height: 20px;
+  width: 25%;
+  float: left;
+  padding: 0 15px;
+  margin-bottom: 39px;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-number span {
+  display: none;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-number label {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin: 0 0 11px;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-number input {
+  border: 1px solid #dfdfdf !important;
+  border-radius: 0;
+  height: auto;
+  font-family: "Muli";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #868686;
+  padding: 11px 20px;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-number input:focus {
+  border-color: #ff5400 !important;
+  box-shadow: none;
+  outline: 0;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-radio {
+  line-height: 20px;
+  width: 20%;
+  float: left;
+  padding: 0 15px;
+  margin-bottom: 45px;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-radio br {
+  display: none;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-radio label {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 5px 0;
+  font-family: "Muli";
+  font-size: 14px;
+  line-height: 20px;
+  color: #565656;
+  font-weight: 400;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-radio label input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-radio label input[type="radio"]:checked ~ span {
+  border-color: #ff5400;
+  border-width: 3px;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-radio label .check {
+  display: block;
+  position: relative;
+  margin: 0;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #bebebe;
+  z-index: 9;
+  top: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+  margin-right: 10px;
+}
+form#insert_vehicle .vehicle-spec .fieldtype-radio label:first-child {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin: 0 0 11px;
+}
+form#insert_vehicle .vehicle-spec .field-interior {
+  clear: both;
+}
+form#insert_vehicle .vehicle-price .vehicle-price__item label {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin: 0 0 11px;
+}
+form#insert_vehicle .vehicle-price .vehicle-price__item input {
+  border: 1px solid #dfdfdf !important;
+  border-radius: 0;
+  height: auto;
+  font-family: "Muli";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #868686;
+  padding: 11px 20px;
+}
+form#insert_vehicle .vehicle-price .vehicle-price__item input:focus {
+  border-color: #ff5400 !important;
+  box-shadow: none;
+  outline: 0;
+}
+form#insert_vehicle .vehicle-info {
+  display: flex;
+  flex-direction: column;
+}
+form#insert_vehicle .vehicle-info label {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin: 0 0 11px;
+}
+form#insert_vehicle .vehicle-info select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* remove default arrow */
+  background: url("../css/img/dot_arrow.png") center right 15px;
+  background-repeat: no-repeat;
+  border: 1px solid #dfdfdf !important;
+  border-radius: 0;
+  height: auto;
+  font-family: "Muli";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #868686;
+  padding: 10.5px 15px;
+  position: relative;
+}
+form#insert_vehicle .vehicle-info select:focus {
+  border-color: #ff5400 !important;
+  box-shadow: none;
+  -o-box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  outline: 0;
+}
+form#insert_vehicle .group-input {
+  margin-bottom: 36px;
+}
+form#insert_vehicle .group-input input {
+  border: 1px solid #dfdfdf !important;
+  border-radius: 0;
+  height: auto;
+  font-family: "Muli";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #868686;
+  padding: 10.5px 15px;
+}
+form#insert_vehicle .group-input input:focus {
+  border-color: #ff5400 !important;
+  box-shadow: none;
+  -o-box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  outline: 0;
+}
+form#insert_vehicle .form-group {
+  margin-bottom: 20px;
+}
+form#insert_vehicle .form-group label {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin: 0 0 11px;
+}
+form#insert_vehicle .form-group input {
+  border: 1px solid #bebebe !important;
+  border-radius: 0;
+  height: auto;
+  font-family: "Muli";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #868686;
+  padding: 10.5px 20px;
+}
+form#insert_vehicle .form-group input:focus {
+  border-color: #ff5400 !important;
+  box-shadow: none;
+}
+form#insert_vehicle .excerpt {
+  margin-bottom: 26px;
+}
+form#insert_vehicle .excerpt textarea {
+  width: 100%;
+  border: 1px solid #bebebe !important;
+  border-radius: 0;
+  height: auto;
+  font-family: "Muli";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #868686;
+  padding: 10.5px 20px;
+  height: 100px;
+}
+form#insert_vehicle .excerpt textarea:focus {
+  border-color: #ff5400 !important;
+  box-shadow: none;
+  -o-box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  outline: 0;
+}
+form#insert_vehicle .features-bottom {
+  margin-bottom: 20px;
+}
+form#insert_vehicle .features-bottom > div {
+  background: transparent;
+}
+form#insert_vehicle .features-bottom > div label {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin: 0 0 25px;
+}
+form#insert_vehicle .features-bottom .form-group input {
+  border: 0 !important;
+  background: #f1f1f1 !important;
+  box-shadow: none;
+  padding: 20px;
+  font-family: "Muli";
+  font-weight: 400;
+  color: #868686;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  width: 100%;
+  padding-left: 150px;
+}
+form#insert_vehicle .features-bottom .form-group .fileUpload {
+  position: absolute;
+  overflow: hidden;
+  margin: 10px;
+  background: #ff5400;
+  width: 110px;
+  height: 30px;
+  left: 25px;
+  top: 49px;
+}
+form#insert_vehicle .features-bottom .form-group .fileUpload input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  opacity: 0;
+}
+form#insert_vehicle .features-bottom .form-group .fileUpload input:hover {
+  cursor: pointer;
+}
+form#insert_vehicle .features-bottom .form-group .fileUpload span {
+  font-family: "Muli";
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  left: 23px;
+  position: absolute;
+  top: 7px;
+}
+form#insert_vehicle .features-bottom .vehicle-feature input {
+  border: 0 !important;
+  background: #f1f1f1 !important;
+  box-shadow: none;
+  padding: 20px;
+  font-family: "Muli";
+  font-weight: 400;
+  color: #868686;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  width: 100%;
+  padding-left: 150px;
+}
+form#insert_vehicle .features-bottom .vehicle-feature .fileUpload {
+  position: absolute;
+  overflow: hidden;
+  margin: 10px;
+  background: #ff5400;
+  width: 110px;
+  height: 30px;
+  left: 25px;
+  top: 49px;
+}
+form#insert_vehicle .features-bottom .vehicle-feature .fileUpload input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+}
+form#insert_vehicle .features-bottom .vehicle-feature .fileUpload span {
+  font-family: "Muli";
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  left: 23px;
+  position: absolute;
+  top: 7px;
+}
+form#insert_vehicle .special-group {
+  margin-bottom: 36px;
+  position: relative;
+}
+form#insert_vehicle .special-group > div {
+  position: initial;
+}
+form#insert_vehicle .special-group label {
+  position: absolute;
+  top: 5px;
+}
+.um-account .um-form form {
+  background: transparent;
+  box-shadow: none !important;
+  padding: 0;
+  margin: 0;
+}
+.um-account .um-form form .um-account-main {
+  background: #fff;
+  padding: 47px 30px 50px !important;
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -o-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+}
+.um-account .um-form form .um-account-side {
+  margin-right: 3%;
+  background: #fff;
+  padding: 30px 0 35px !important;
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -o-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+}
+.um-account .um-form form .um-account-side .um-account-meta {
+  border-bottom: 1px solid rgba(134, 134, 134, 0.1);
+  margin-bottom: 25px;
+}
+.um-account .um-form form .um-account-side .um-account-meta .um-account-name {
+  padding-top: 37px;
+  padding-bottom: 35px;
+}
+.um-account .um-form form .um-account-side .um-account-meta .um-account-name > a {
+  margin-bottom: 3px;
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.um-account .um-form form .um-account-side .um-account-meta .um-account-name .um-account-profile-link a {
+  font-family: "Muli";
+  font-weight: 300;
+  color: #868686;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.um-account .um-form form .um-account-side ul {
+  padding: 0 15px !important;
+}
+.um-account .um-form form .um-account-side ul li {
+  background: transparent;
+}
+.um-account .um-form form .um-account-side ul li a.current .um-account-icon i {
+  color: #ff5400;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.um-account .um-form form .um-account-side ul li a.current .um-account-title {
+  color: #000000;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.um-account .um-form form .um-account-side ul li a {
+  height: 32px;
+}
+.um-account .um-form form .um-account-side ul li a .um-account-arrow {
+  display: none;
+}
+.um-account .um-form form .um-account-side ul li a .um-account-icon {
+  border-right: 0;
+  font-size: 16px;
+  width: 20px;
+  height: auto;
+  color: #bebebe;
+}
+.um-account .um-form form .um-account-side ul li a .um-account-title {
+  font-family: "Muli";
+  font-size: 16px;
+  color: #868686;
+  line-height: 30px;
+  font-weight: 400;
+  padding-left: 5px;
+}
+.um-account .um-form form .um-account-side ul li a:hover {
+  background: #fff;
+}
+.um-account .um-form form .um-account-side ul li a:hover .um-account-title {
+  color: #868686;
+}
+.um-account .um-form form .um-account-main {
+  width: 62%;
+}
+.um-account .um-form form .um-account-main .um-notice i {
+  top: -4px;
+}
+.um-account .um-form form .um-account-main p {
+  margin: 20px 0 15px !important;
+  padding: 0!important;
+  padding-left: 15px !important;
+}
+.um-account .um-form form .um-account-main .um-account-tab {
+  margin: 0 -15px;
+}
+.um-account .um-form form .um-account-main .um-account-tab .um-account-heading {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #222222;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 39px !important;
+}
+.um-account .um-form form .um-account-main .um-account-tab .um-account-heading:after {
+  content: "";
+  width: 2px;
+  height: 13px;
+  background: #ff5400;
+  left: 15px;
+  position: absolute;
+  top: 4px;
+}
+.um-account .um-form form .um-account-main .um-account-tab .um-account-heading i {
+  display: none;
+}
+.um-account .um-form form .um-account-main .um-account-tab .um-field {
+  width: 44%;
+  padding: 0 15px;
+  float: left;
+  margin-bottom: 24px;
+}
+.um-account .um-form form .um-account-main .um-account-tab .um-field .um-field-label label {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222222;
+  text-transform: none;
+}
+.um-account .um-form form .um-account-main .um-account-tab .um-col-alt {
+  clear: both;
+  padding-left: 15px;
+  padding-top: 6px;
+}
+.um-account .um-form form .um-account-main .um-account-tab .um-col-alt .um-left input {
+  font-family: "Montserrat" !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  color: #fff;
+  text-transform: none !important;
+  background: #ff5400 !important;
+  border: 0 !important;
+  padding: 10px 25px !important;
+}
+.um-members .um-member {
+  width: 50%;
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  background: transparent;
+  border: 0;
+}
+.um-members .um-member .um-member__wrapper {
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -o-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  background: #fff;
+  display: flex;
+  padding: 30px;
+}
+.um-members .um-member .um-member__wrapper .um-member-photo {
+  margin-right: 30px;
+}
+.um-members .um-member .um-member__wrapper .um-member-photo .tz_auto_show_rating span i {
+  color: #f7941d;
+}
+.um-members .um-member .um-member__wrapper .um-member-photo p {
+  font-family: "Muli";
+  font-weight: 300;
+  font-size: 12px;
+  margin: 0;
+}
+.um-members .um-member .um-member__wrapper .um-member-photo a {
+  display: block !important;
+  margin-bottom: 21px;
+}
+.um-members .um-member .um-member__wrapper .um-member-photo a img {
+  width: auto;
+  max-width: 130px;
+  height: auto;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  margin: 0 !important;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-name a {
+  margin: 5px 0 18px;
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-maps > span {
+  color: #ff5400 !important;
+  position: relative;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-maps > span:hover {
+  cursor: pointer;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-maps > span:before {
+  content: "";
+  height: 2px;
+  background: #ff5400;
+  width: 60px;
+  bottom: -2px;
+  left: 25px;
+  position: absolute;
+  opacity: 0.5;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-maps > span i {
+  color: #868686 !important;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-maps #myModal {
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -o-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.1);
+  border: 0;
+  border-radius: 0;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-maps #myModal .modal-content {
+  border: 0;
+  border-radius: 0;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-maps .modal-header button {
+  background: transparent !important;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-maps .modal-footer button {
+  background: #222222 !important;
+  font-family: "Montserrat";
+  font-weight: 700 !important;
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px !important;
+  letter-spacing: 0.5px;
+  text-transform: uppercase !important;
+  border-radius: 0 !important;
+  padding: 0 30px !important;
+  border: 1px solid #222 !important;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-member-maps .modal-body #map {
+  height: 500px;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-style {
+  text-align: left;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-style span {
+  display: block;
+  margin-bottom: 9px;
+  font-family: "Muli";
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 14px;
+  color: #868686;
+}
+.um-members .um-member .um-member__wrapper .um-member-card .um-style span i {
+  font-size: 12px;
+  color: inherit;
+  line-height: inherit;
+  width: 22px;
+  text-align: center;
+}
+.autoshowroom-breadcrumb-navxt span {
+  font-weight: 400;
+  color: #565656;
+  font-size: 14px;
+  line-height: 18px;
+}
+.homev6_blog {
+  padding: 0 0 80px;
+}
+.homev6_blog .blog_seperator {
+  width: 60px;
+  height: 4px;
+  border-top: 1px solid #ff5400;
+  border-bottom: 1px solid #ff5400;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 27px;
+}
+.homev6_blog .blog_title {
+  text-align: center;
+  font-family: "Montserrat";
+  color: #222222;
+  font-weight: 700;
+  line-height: 35px;
+  font-size: 25px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 14px;
+}
+.homev6_blog .blog_title span {
+  color: #ff5400;
+}
+.homev6_blog .blog_title:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.homev6_blog .blog_desc p {
+  text-align: center;
+  font-family: "Muli";
+  font-size: 15px;
+  font-weight: 400;
+  color: #565656;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media {
+  position: relative;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media img {
+  width: 100%;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail {
+  position: relative;
+  bottom: 60px;
+  -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  margin: 0 30px;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail .blog_detail__wrapper {
+  padding: 22px 40px;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail .blog_detail__wrapper h3 {
+  font-family: "Muli";
+  font-weight: 700;
+  color: #222222;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: none;
+  text-align: center;
+  margin: 0 0 14px;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail .blog_detail__wrapper h3 a {
+  font-family: "Muli";
+  font-weight: 700;
+  color: #222222;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: none;
+  transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail .blog_detail__wrapper h3 a:hover {
+  color: #ff5400;
+  transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail .blog_detail__wrapper .blog_content__information {
+  margin-bottom: 6px;
+  text-align: center;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail .blog_detail__wrapper .blog_content__information .blog_content__date {
+  font-family: "Muli";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #bebebe;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail .blog_detail__wrapper .blog_content__information .blog_content__separator {
+  color: #ff5400;
+  font-weight: 700;
+  margin: 0 10px;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail .blog_detail__wrapper .blog_content__information .blog-content__author {
+  font-family: "Muli";
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #bebebe;
+}
+.homev6_blog .blog_content .blog_content__item .blog_content__media .blog_content__detail .blog_detail__wrapper .blog_content__information .blog-content__author strong {
+  color: #ff5400;
+}
+.homev6_newletter {
+  padding: 36px 0 40px;
+}
+.homev6_newletter .container {
+  padding: 0;
+}
+.homev6_newletter .col-left h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.homev6_newletter .col-left p {
+  font-family: "Muli";
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+}
+.homev6_newletter .col-right form {
+  margin-top: 4px;
+}
+.homev6_newletter .col-right form .tnp-email {
+  font-family: "Muli";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #868686;
+  padding: 16px 20px;
+  max-width: none;
+}
+.homev6_newletter .col-right form .tnp-email:focus {
+  border: 0;
+  box-shadow: none;
+  outline: 0;
+}
+.homev6_newletter .col-right form .tnp-submit {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: #222222;
+  padding: 16px 20px;
+}
+.homev6_newletter .col-right form .tnp-submit:focus {
+  border: 0;
+  box-shadow: none;
+}
+.slider_v6_title h3 {
+  font-size: 50px;
+  line-height: 70px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: none;
+}
+.slider_v6_title h3 b {
+  color: #fff600;
+}
+.v6_title2 h3 {
+  font-size: 50px;
+  line-height: 70px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: none;
+}
+.v6_desc p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  font-weight: 300;
+}
+.um-profile .um-profile-body .um-row {
+  margin-bottom: 55px !important;
+}
+.um-profile .um-profile-body .um-row-heading {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #222222;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 10px;
+  border-top: 2px solid #ff5400;
+  padding-top: 45px;
+  padding-bottom: 18px;
+  margin-top: 25px;
+}
+.um-profile .um-profile-body .um-row-heading:after {
+  content: '';
+  width: 2px;
+  height: 13px;
+  background: #ff5400;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+.um-profile .um-profile-body .um-field {
+  padding: 0;
+  margin-top: 29px;
+}
+.um-profile .um-profile-body .um-field .um-field-label {
+  border-bottom: 0;
+  margin-bottom: 1px;
+}
+.um-profile .um-profile-body .um-field .um-field-label label {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #222222;
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+.um-profile .um-profile-body .um-field .um-field-area input {
+  background: #f1f1f1 !important;
+  border: 1px solid #dfdfdf;
+}
+.um-profile .um-profile-body .um-field .um-field-area .um-field-value {
+  font-family: "Muli";
+  font-weight: 400;
+  font-size: 14px;
+  color: #868686;
+  line-height: 20px;
+}
+.um-profile .um-profile-body .um-field .um-field-area .um-field-value a {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+.um-profile .um-form .um-header .um-profile-edit {
+  top: 30px !important;
+}
+.um-profile .um-form form {
+  padding: 30px;
+}
+.um-profile .um-form form .um-profile-body {
+  max-width: none !important;
+}
+.um-profile .um-form form .um-header .um-profile-edit {
+  top: 30px !important;
+}
+.um-profile .um-form form .um-header .um-profile-meta .um-name a {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #222222;
+  margin-left: 15px;
+}
+.um-profile .um-form form .um-header .um-meta-text {
+  margin-left: 16px;
+}
+.um-own-profile .autoshowroom-contact {
+  display: none;
+}
+.um-own-profile .um-profile-body.posts {
+  margin-bottom: 0 !important;
+}
+.um-own-profile .um-profile-body.posts .item-wrapper:hover .Vehicle-Feature-Image a img {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  overflow: hidden;
+}
+.um-own-profile .um-header {
+  padding: 0 0 50px;
+}
+.um-own-profile .um-header .um-profile-meta .um-main-meta {
+  padding: 24px 0 0;
+}
+.um-own-profile .um-header .um-profile-meta .um-main-meta .um-name a {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #222222;
+  margin-left: 15px;
+}
+.um-own-profile .um-header .um-meta-text {
+  margin-left: 16px;
+}
+.um-own-profile .um-profile-body {
+  max-width: none !important;
+}
+.um-page-user .um-profile-body {
+  max-width: none !important;
+}
+.um-own-profile .um-profile-body .row {
+  margin-bottom: 40px;
+}
+
+.um-own-profile .um-profile-body .item {
+  box-sizing: border-box;
+}
+.um-page-user .um-profile-body .item {
+  box-sizing: border-box;
+}
+.um-own-profile .um-profile-body .item .item-wrapper {
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.um-own-profile .um-profile-body .item .Vehicle-Feature-Image {
+  position: relative;
+}
+.um-own-profile .um-profile-body .item .Vehicle-Feature-Image a {
+  display: block;
+  overflow: hidden;
+}
+.um-own-profile .um-profile-body .item .Vehicle-Feature-Image a img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+.um-own-profile .um-profile-body .item .Vehicle-Feature-Image .pcd-pricing {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #ff5400;
+  color: #fff;
+  padding: 8px 15px;
+  font-weight: 700;
+}
+.um-own-profile .um-profile-body .item .Vehicle-Feature-Image .pcd-pricing .pcd-price-msrp {
+  font-weight: 400;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #fff;
+}
+.um-own-profile .um-profile-body .item .Vehicle-Title {
+  padding: 25px 0 10px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+.um-own-profile .um-profile-body .item .Vehicle-Title a {
+  color: #222222;
+  text-transform: uppercase;
+  border-left: 3px solid #ff5400;
+  padding-left: 15px;
+  font-size: 18px;
+  display: block;
+}
+.um-own-profile .um-profile-body .item .vehicle-feature-des {
+  padding: 0 15px 20px 15px;
+}
+.um-own-profile .um-profile-body .item .vehicle-feature-des .vehicle-feature-excerpt {
+  font-size: 14px;
+  color: #565656;
+  font-family: 'Muli';
+  font-weight: 400;
+  margin: 0;
+  line-height: 24px;
+}
+.um-own-profile .um-profile-body .item .pcd-specs {
+  padding: 2px;
+}
+.um-own-profile .um-profile-body .item .pcd-specs span {
+  width: 33.33%;
+  float: left;
+  background: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  color: #565656;
+  font-weight: 400;
+}
+.um-own-profile .um-profile-body .item .pcd-specs span em {
+  font-weight: 400;
+  font-style: normal;
+}
+.um-own-profile .um-profile-body .um-item {
+  padding: 32px 0 36px;
+}
+.um-own-profile .um-profile-body .um-item .um-item-link {
+  margin-bottom: 8px;
+}
+.um-own-profile .um-profile-body .um-item .um-item-link i {
+  font-size: 18px;
+  line-height: 25px;
+}
+.um-own-profile .um-profile-body .um-item .um-item-link a {
+  font-size: 15px;
+  font-family: "Muli";
+  color: #686868;
+  line-height: 21px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.um-own-profile .um-profile-body .um-item .um-item-link a:hover {
+  text-decoration: none !important;
+}
+.um-own-profile .um-profile-body .um-item .um-item-meta span {
+  font-family: "Muli";
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #bebebe;
+}
+.um-own-profile .um-profile-body .um-item .um-item-meta span a {
+  font-family: "Muli";
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ff5400;
+  text-transform: none;
+  border-bottom: 1px solid #ff5400;
+}
+.um-own-profile .um-profile-nav {
+  background: #333336;
+  padding: 20px 30px;
+}
+.um-own-profile .um-profile-nav .um-profile-nav-item a {
+  padding: 10px 30px 10px 45px;
+  margin-left: 0;
+  border-radius: 0;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.um-own-profile .um-profile-nav .um-profile-nav-item a:hover {
+  background: #ff5400;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.um-own-profile .um-profile-nav .um-profile-nav-item a i {
+  font-size: 14px;
+  line-height: 22px;
+  left: 25px;
+  top: 9px;
+}
+.um-own-profile .um-profile-nav .um-profile-nav-item a span {
+  font-family: "Muli";
+  color: #fff;
+  line-height: 18px;
+  font-weight: 600;
+  padding-left: 0;
+}
+.um-own-profile .um-profile-nav .active.um-profile-nav-item a {
+  background: #ff5400 ;
+  border-radius: 0;
+}
+.um-own-profile .um-profile-nav .active.um-profile-nav-item a i {
+  top: 8px;
+}
+.um-own-profile .um-profile-body.posts {
+  padding: 60px 0 0;
+}
+.um-own-profile .um-profile-body.posts #map {
+  display: none;
+}
+.um-own-profile .um-profile-body.comments {
+  margin: 0 100px !important;
+  padding: 20px 0 !important;
+}
+.um-own-profile .um-profile-body.comments #map {
+  display: none;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-row-heading {
+  padding-bottom: 3px;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-row {
+  margin-bottom: 50px !important;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-field {
+  margin-top: 24px;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-field .um-field-label label {
+  font-size: 14px !important;
+  margin-bottom: 8px;
+  font-family: "Montserrat";
+  color: #222222;
+  line-height: 20px;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-field .um-field-area input {
+  border-color: #ff5400;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-field .um-field-area input:focus {
+  border-color: #ff5400 ;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-field .um-field-area .um-field-radio .um-field-radio-state i {
+  color: #ff5400 ;
+  font-size: 20px;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-field .um-field-area .um-field-radio-option {
+  font-family: "Muli";
+  font-weight: 400;
+  color: #686868;
+  font-size: 14px;
+  line-height: 23px;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-field .um-field-area select {
+  background: #f1f1f1;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-field .um-field-area .select2.select2-container {
+  background: #f1f1f1 !important;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-field .um-field-area .select2.select2-container .select2-selection {
+  background: #f1f1f1 !important;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-col-alt {
+  border-top: 2px solid #ff5400;
+  padding: 39px 0 30px;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-col-alt .um-left {
+  width: auto;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-col-alt .um-left input {
+  font-family: "Montserrat";
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  color: #fff;
+  background: #ff5400 !important;
+  border: 0 !important;
+  text-transform: none !important;
+  padding: 10px 30px !important;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-col-alt .um-right {
+  float: left;
+  width: auto;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body .um-col-alt .um-right a {
+  font-family: "Montserrat";
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  color: #222 !important;
+  background: #fff !important;
+  border: 1px solid #222 !important;
+  text-transform: none !important;
+  padding: 9px 30px !important;
+  margin-left: 20px;
+}
+.um-own-profile .um-profile.um-editing .um-profile-body #map {
+  border: 1px solid #dfdfdf;
+  border-top: 0;
+}
+.um-page-account .autoshowroom-contact .autoshowroom-contact-overlay{
+  display: none;
+}
+.um-profile .um-form form .um-profile-body #map .um-form-field{
+  top: 7px !important;
+}
+/*Page acoount css*/
+.um-own-profile .autoshowroom-contact {
+  display: none;
+}
+.um-page-user .um-profile-body.posts {
+  margin-bottom: 0 !important;
+}
+.um-page-user .um-profile-body.posts .item-wrapper:hover .Vehicle-Feature-Image a img {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  overflow: hidden;
+}
+.um-page-user .um-header {
+  padding: 0 0 50px;
+}
+.um-page-user .um-header .um-profile-meta .um-main-meta {
+  padding: 24px 0 0;
+}
+.um-page-user .um-header .um-profile-meta .um-main-meta .um-name a {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #222222;
+  margin-left: 15px;
+}
+.um-page-user .um-header .um-meta-text {
+  margin-left: 16px;
+}
+.um-page-user .um-profile-body {
+  max-width: none !important;
+}
+.um-page-user .um-profile-body {
+  max-width: none !important;
+}
+.um-page-user .um-profile-body .row {
+  margin-bottom: 40px;
+}
+
+.um-page-user .um-profile-body .item {
+  box-sizing: border-box;
+}
+.um-page-user .um-profile-body .item {
+  box-sizing: border-box;
+}
+.um-page-user .um-profile-body .item .item-wrapper {
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.um-page-user .um-profile-body .item .Vehicle-Feature-Image {
+  position: relative;
+}
+.um-page-user .um-profile-body .item .Vehicle-Feature-Image a {
+  display: block;
+  overflow: hidden;
+}
+.um-page-user .um-profile-body .item .Vehicle-Feature-Image a img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+.um-page-user .um-profile-body .item .Vehicle-Feature-Image .pcd-pricing {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #ff5400;
+  color: #fff;
+  padding: 8px 15px;
+  font-weight: 700;
+}
+.um-page-user .um-profile-body .item .Vehicle-Feature-Image .pcd-pricing .pcd-price-msrp {
+  font-weight: 400;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #fff;
+}
+.um-page-user .um-profile-body .item .Vehicle-Title {
+  padding: 25px 0 10px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+.um-page-user .um-profile-body .item .Vehicle-Title a {
+  color: #222222;
+  text-transform: uppercase;
+  border-left: 3px solid #ff5400;
+  padding-left: 15px;
+  font-size: 18px;
+  display: block;
+}
+.um-page-user .um-profile-body .item .vehicle-feature-des {
+  padding: 0 15px 20px 15px;
+}
+.um-page-user .um-profile-body .item .vehicle-feature-des .vehicle-feature-excerpt {
+  font-size: 14px;
+  color: #565656;
+  font-family: 'Muli';
+  font-weight: 400;
+  margin: 0;
+  line-height: 24px;
+}
+.um-page-user .um-profile-body .item .pcd-specs {
+  padding: 2px;
+}
+.um-page-user .um-profile-body .item .pcd-specs span {
+  width: 33.33%;
+  float: left;
+  background: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  color: #565656;
+  font-weight: 400;
+}
+.um-page-user .um-profile-body .item .pcd-specs span em {
+  font-weight: 400;
+  font-style: normal;
+}
+.um-page-user .um-profile-body .um-item {
+  padding: 32px 0 36px;
+}
+.um-page-user .um-profile-body .um-item .um-item-link {
+  margin-bottom: 8px;
+}
+.um-page-user .um-profile-body .um-item .um-item-link i {
+  font-size: 18px;
+  line-height: 25px;
+}
+.um-page-user .um-profile-body .um-item .um-item-link a {
+  font-size: 15px;
+  font-family: "Muli";
+  color: #686868;
+  line-height: 21px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.um-page-user .um-profile-body .um-item .um-item-link a:hover {
+  text-decoration: none !important;
+}
+.um-page-user .um-profile-body .um-item .um-item-meta span {
+  font-family: "Muli";
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #bebebe;
+}
+.um-page-user .um-profile-body .um-item .um-item-meta span a {
+  font-family: "Muli";
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #ff5400;
+  text-transform: none;
+  border-bottom: 1px solid #ff5400;
+}
+.um-page-user .um-profile-nav {
+  background: #333336;
+  padding: 20px 30px;
+}
+.um-page-user .um-profile-nav .um-profile-nav-item a {
+  padding: 10px 30px 10px 45px;
+  margin-left: 0;
+  border-radius: 0;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.um-page-user .um-profile-nav .um-profile-nav-item a:hover {
+  background: #ff5400;
+  transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+}
+.um-page-user .um-profile-nav .um-profile-nav-item a i {
+  font-size: 14px;
+  line-height: 22px;
+  left: 25px;
+  top: 9px;
+}
+.um-page-user .um-profile-nav .um-profile-nav-item a span {
+  font-family: "Muli";
+  color: #fff;
+  line-height: 18px;
+  font-weight: 600;
+  padding-left: 0;
+}
+.um-page-user .um-profile-nav .active.um-profile-nav-item a {
+  background: #ff5400 ;
+  border-radius: 0;
+}
+.um-page-user .um-profile-nav .active.um-profile-nav-item a i {
+  top: 8px;
+}
+.um-page-user .um-profile-body.posts {
+  padding: 60px 0 0;
+}
+.um-page-user .um-profile-body.posts #map {
+  display: none;
+}
+.um-page-user .um-profile-body.comments {
+  margin: 0 100px !important;
+  padding: 20px 0 !important;
+}
+.um-page-user .um-profile-body.comments #map {
+  display: none;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-row-heading {
+  padding-bottom: 3px;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-row {
+  margin-bottom: 50px !important;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-field {
+  margin-top: 24px;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-field .um-field-label label {
+  font-size: 14px !important;
+  margin-bottom: 8px;
+  font-family: "Montserrat";
+  color: #222222;
+  line-height: 20px;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-field .um-field-area input {
+  border-color: #ff5400;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-field .um-field-area input:focus {
+  border-color: #ff5400;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-field .um-field-area .um-field-radio .um-field-radio-state i {
+  color: #ff5400;
+  font-size: 20px;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-field .um-field-area .um-field-radio-option {
+  font-family: "Muli";
+  font-weight: 400;
+  color: #686868;
+  font-size: 14px;
+  line-height: 23px;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-field .um-field-area select {
+  background: #f1f1f1;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-field .um-field-area .select2.select2-container {
+  background: #f1f1f1 !important;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-field .um-field-area .select2.select2-container .select2-selection {
+  background: #f1f1f1 !important;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-col-alt {
+  border-top: 2px solid #ff5400;
+  padding: 39px 0 30px;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-col-alt .um-left {
+  width: auto;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-col-alt .um-left input {
+  font-family: "Montserrat";
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  color: #fff;
+  background: #ff5400 !important;
+  border: 0 !important;
+  text-transform: none !important;
+  padding: 10px 30px !important;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-col-alt .um-right {
+  float: left;
+  width: auto;
+}
+.um-page-user .um-profile.um-editing .um-profile-body .um-col-alt .um-right a {
+  font-family: "Montserrat";
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  color: #222 !important;
+  background: #fff !important;
+  border: 1px solid #222 !important;
+  text-transform: none !important;
+  padding: 9px 30px !important;
+  margin-left: 20px;
+}
+.um-page-user .um-profile.um-editing .um-profile-body #map {
+  border: 1px solid #dfdfdf;
+  border-top: 0;
+}
+@media(max-width: 992px){
+  .um-account .um-form form .um-account-main .um-account-tab{
+    margin: 0;
+  }
+  .um-form form .um-field-area input{
+    width: 100%;
+  }
+  .um-account .um-form form .um-account-main .um-account-tab .um-field{
+    width: 100%;
+    padding: 0;
+  }
+  .um-account .um-form form .um-account-main .um-account-tab .um-account-heading:after{
+    left: 0;
+  }
+  .um-account .um-form form .um-account-main .um-account-tab .um-account-heading{
+    padding-left: 15px;
+  }
+  .um-account .um-form form .um-account-main .um-account-tab .um-col-alt{
+    padding-left: 0;
+  }
+  .um-account .um-form form .um-account-side{
+    width: 35%;
+  }
+  .um-account .um-form form .um-account-side ul{
+    border: 0;
+    padding: 0 !important;
+  }
+  .um-account .um-form form .um-account-side ul li .um-account-link.current{
+    background: transparent;
+  }
+  .um-account .um-form form .um-account-side ul li .um-account-link.current i{
+    color: #ff5400;
+  }
+  .um-page-account .autoshowroom-contact .autoshowroom-contact-overlay{
+    display: none;
+  }
+  .um-account .um-form form .um-account-side .um-account-meta{
+    border-bottom: 0;
+  }
+  .um-account .um-form form .um-account-side .um-account-meta a{
+    border: 0;
+  }
+  .um-account .um-form form .um-account-side .um-account-meta a img{
+    display: inline;
+  }
+}
+@media(max-width: 768px){
+  form#insert_vehicle .vehicle-info {
+    margin-bottom: 20px;
+  }
+  form#insert_vehicle .vehicle-spec .vehicle-price{
+    width: 100%;
+  }
+  form#insert_vehicle .vehicle-spec .fieldtype-number{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  form#insert_vehicle .vehicle-spec .fieldtype-radio{
+    width: 100%;
+    margin-bottom: 0;
+  }
+  form#insert_vehicle .group-input {
+    margin-bottom: 0;
+  }
+  form#insert_vehicle .features-bottom > div{
+    margin-bottom: 20px;
+  }
+  form#insert_vehicle .vehicle-spec {
+    margin-bottom: 20px;
+  }
+}
+@media( max-width: 480px ){
+  .um-account .um-form form .um-account-main {
+    width: 100%;
+  }
+  .um-account .um-form form .um-account-meta{
+    padding-bottom: 25px;
+  }
+  .um-account .um-form form .um-account-main .um-account-tab{
+    padding-top: 20px;
+  }
+}
+.um-members{
+  height: auto !important;
+}
+.hide-color-picker{
+  display: block !important;
+}
+.Vehicle-Feature-Image.zoomin img{
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  overflow: hidden;
+}
+.Vehicle-Feature-Image.zoomin{
+  overflow: hidden;
+}
+.Vehicle-Feature-Image.zoomin:hover img{
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}
+.Vehicle-Feature-Image.zoomout{
+  overflow: hidden;
+}
+.Vehicle-Feature-Image.zoomout img{
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  overflow: hidden;
+}
+.Vehicle-Feature-Image.zoomout:hover img{
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -moz-transform: scale(1);
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+}

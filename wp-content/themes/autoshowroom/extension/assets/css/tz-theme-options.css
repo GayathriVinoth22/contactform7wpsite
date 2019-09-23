@@ -1,0 +1,468 @@
+body .ot-gallery-buttons{
+    width: auto;
+}
+#setting_autoshowroomfooter_image div.format-setting-inner {
+    width: 100% !important;
+}
+#option-tree-settings-api > .ui-tabs{
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+}
+.mce-toolbar .mce-btn i{
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    text-shadow: none;
+}
+#page_meta_box{
+    display: none;
+}
+body #setting_autoshowroom_404_page_content .format-setting .format-setting-inner{
+    width: 100% !important;
+}
+body #setting_autoshowroom_contact_option_bgimage .format-setting .format-setting-inner,
+body #setting_autoshowroom_contact_option_message .format-setting .format-setting-inner,
+body #setting_autoshowroom_contact_option_button_text .format-setting .format-setting-inner,
+body #setting_autoshowroom_contact_option_button_link .format-setting .format-setting-inner,
+body #setting_autoshowroom_page_title_image .format-setting .format-setting-inner,
+body #setting_autoshowroom_copyright .format-setting .format-setting-inner{
+    width: 100% !important;
+}
+body #setting_autoshowroom_contact_option_bgimage .format-setting-label .label,
+body #setting_autoshowroom_contact_option_message .format-setting-label .label,
+body #setting_autoshowroom_contact_option_button_text .format-setting-label .label,
+body #setting_autoshowroom_contact_option_button_link .format-setting-label .label,
+body #setting_autoshowroom_page_title_image .format-setting-label .label{
+    font-size: 13px;
+    color: #444;
+    font-weight: 600;
+}
+body .format-setting .type-radio-image .format-setting-inner{
+    width: 50% !important;
+}
+body #autoshowroom_copyright_toolbar3{
+    display: none;
+}
+body #autoshowroom_404_page_content_toolbar3{
+    display: none;
+}
+/*end custom textarea*/
+
+body #setting_autoshowroom_TzFontDefault{
+    display: none;
+}
+body #setting_autoshowroom_TzFontSquirrel{
+    display: none;
+}
+body #setting_autoshowroom_TzFontFami{
+    display: none;
+}
+body #setting_autoshowroom_TzFontFaminy{
+    display: none;
+}
+
+/*header font*/
+body #setting_autoshowroom_TzFontHeadDefault{
+    display: none;
+}
+body #setting_autoshowroom_TzFontHeadSquirrel{
+    display: none;
+}
+body #setting_autoshowroom_TzFontHeadGoodurl{
+    display: none;
+}
+body #setting_autoshowroom_TzFontFaminyHead{
+    display: none;
+}
+
+
+body #setting_autoshowroom_TzFontMenuDefault{
+    display: none;
+}
+body #setting_autoshowroom_TzFontMenuSquirrel{
+    display: none;
+}
+body #setting_autoshowroom_TzFontMenuGoodurl{
+    display: none;
+}
+body #setting_autoshowroom_TzFontFaminyMenu{
+    display: none;
+}
+
+
+/*custom font*/
+body #setting_autoshowroom_TzFontCustomDefault{
+    display: none;
+}
+body #setting_autoshowroom_TzFontCustomSquirrel{
+    display: none;
+}
+body #setting_autoshowroom_TzFontCustomGoodurl{
+    display: none;
+}
+body #setting_autoshowroom_TzFontFaminyCustom{
+    display: none;
+}
+body #setting_autoshowroom_TZBackgroundColor{
+    display: none;
+}
+
+.header1 .description{
+    background:url(../images/header1.jpg) top center no-repeat;
+    background-size:contain;
+    height:170px;
+    font-size:0;
+}
+.header2 .description{
+    background:url(../images/header2.jpg) top center no-repeat;
+    background-size:contain;
+    height:170px;
+    font-size:0;
+}
+.header3 .description{
+    background:url(../images/header3.jpg) top center no-repeat;
+    background-size:contain;
+    height:170px;
+    font-size:0;
+}
+.header4 .description{
+    background:url(../images/header4.jpg) top center no-repeat;
+    background-size:contain;
+    height:170px;
+    font-size:0;
+}
+.header5 .description{
+    background:url(../images/header5.jpg) top center no-repeat;
+    background-size:contain;
+    height:170px;
+    font-size:0;
+}
+.header6 .description{
+    background:url(../images/header6.jpg) top center no-repeat;
+    background-size:contain;
+    height:170px;
+    font-size:0;
+}
+/*style option*/
+body #tab_footer_column_option,
+body #tab_footer_social_option,
+body #tab_TzFontMenu,
+body #tab_TzFontCustom,
+body #tab_TZBody,
+body #tab_TZColorMenu,
+body #tab_TzFontHeader,
+body #tab_TZVehicleCompare,
+body #tab_TZVehicleCalculator,
+body #tab_TZVehicleDetail,
+body #tab_TZVehicleIcon
+
+{
+    background: #EAEAEA;
+    border: 0;
+    display: none;
+
+}
+
+/*logo*/
+body div#setting_autoshowroom_logoText{
+    display: none;
+}
+body div#setting_autoshowroom_logoTextcolor{
+    display: none;
+}
+body div#setting_autoshowroom_favicon{
+    display: none;
+}
+/* css background option*/
+body .background_pattern {
+    width: 40px;
+    height: 40px;
+    border-radius: 0;
+    padding: 2px;
+}
+body #setting_autoshowroom_background_pattern .format-setting .format-setting-inner{
+    width: 100% !important;
+}
+
+
+
+/*style option*/
+body #page-ot_theme_options{
+    width: 80%;
+}
+body .wrap.settings-wrap .ui-tabs-nav{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+}
+body #option-tree-sub-header{
+    background-color: #f1f1f1  !important;
+}
+body #option-tree-settings-api .ui-tabs{
+    background: url("../images/ot-menu-bg2.png") repeat-y scroll 0 0 #f1f1f1 !important;
+}
+
+body .wrap.settings-wrap .ui-tabs-nav li.ui-state-active{
+
+    border: none;
+    background:  #ffffff !important;
+    margin-right: -0px;
+    border-radius: 0;
+}
+body .wrap.settings-wrap .ui-tabs-nav li.ui-state-active a{
+    color: #797979;
+
+}
+body .wrap.settings-wrap .ui-tabs-nav li{
+    border-bottom: 1px solid #D8D8D8;
+    border-top: 1px solid #FFFFFF;
+    color: #797979;
+    display: block;
+    font: bold 12px/18px sans-serif;
+    padding: 7px 10px;
+    text-decoration: none;
+
+}
+body .wrap.settings-wrap .ui-tabs-nav li a{
+    padding: 1px 5px 1px 27px;
+    font-weight: 600;
+    color: #555555;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+body #option-tree-header{
+    border-radius: 2px 2px 0 0;
+}
+body .format-setting-label {
+
+    border-bottom: 1px solid #f1f1f1;
+    margin: 0 0 20px;
+    padding: 0px 0px 5px;
+    width: 100%;
+}
+body .format-setting-wrap{
+    border-bottom: 0;
+    padding-bottom: 20px;
+}
+body input.option-tree-ui-upload-input, input.option-tree-ui-input{
+    padding: 6px;
+}
+body .format-settings{
+    padding: 0 0 20px;
+}
+
+body #option-tree-settings-api .postbox{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    margin: 0px;
+    padding: 20px;
+}
+body #wpbody-content .metabox-holder{
+    padding-top: 0;
+}
+body #option-tree-settings-api .ui-tabs{
+    padding-bottom: 0;
+}
+body #option-tree-header #option-tree-version span{
+    display: none;
+}
+body #option-tree-header #option-tree-version span.auto{
+    display: block;
+}
+body .option-tree-ui-buttons{
+    background: #f1f1f1;
+    margin-top: 5px;
+}
+body .format-setting-inner input,
+body .format-setting-inner textarea,
+body .format-setting-inner select{
+    background: #f1f1f1;
+}
+body .format-setting-inner input:hover,
+body .format-setting-inner input:focus,
+body .format-setting-inner textarea:hover,
+body .format-setting-inner textarea:focus
+{
+    background: #ffffff;
+}
+body .select-wrapper{
+    background-color: #f1f1f1;
+}
+body .select-wrapper:hover,
+body .select-wrapper:focus{
+    background-color: #ffffff;
+}
+#tab_TzSyle,
+#tab_TZColor,
+#tab_TZVehicle,
+#tab_footeroption{
+    position: relative;
+}
+#tab_TzSyle:after,
+#tab_TZColor:after,
+#tab_TZVehicle:after,
+#tab_footeroption:after{
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 7px solid #000;
+    content: "";
+    position: absolute;
+    right: 7px;
+    top: 14px;
+}
+#setting_autoshowroom_header_option .option-tree-ui-radio-images{
+    float: none !important;
+}
+/* logo icon */
+body #tab_social_network a{
+    background: url("../images/social_links_icon.png") no-repeat left center;
+}
+body #tab_TZColor a{
+    background: url("../images/color-palette.png") no-repeat left center;
+}
+
+body #tab_TZBreadcrumb a{
+    background: url("../images/navigation.png") no-repeat left center;
+}
+body #tab_TZBackground a{
+    background: url("../images/icon-background.png") no-repeat left center;
+}
+body #tab_TZBlog a{
+    background: url("../images/icon-docs.png") no-repeat left center;
+}
+body #tab_contact a{
+    background: url("../images/ringed-agenda.png") no-repeat left center;
+}
+body #tab_TzGlobalOption a{
+    background: url("../images/global.png") no-repeat left center;
+}
+body #tab_google_analytics a{
+    background: url("../images/google_al.png") no-repeat left center;
+}
+body #tab_TzSyle a{
+    background: url("../images/font-style.png") no-repeat left center;
+}
+body #tab_TZVehicle a{
+    background: url("../images/car-style.png") no-repeat left center;
+}
+body #tab_tzShopOption a{
+    background: url("../images/icon-shop.png") no-repeat left center;
+}
+body #tab_tzShopDetailOption a{
+    background: url("../images/icon-shopdetail.png") no-repeat left center;
+}
+body #tab_contactpage a{
+    background: url("../images/icon-contact.png") no-repeat left center;
+}
+body #tab_getaquote a{
+    background: url("../images/boss.png") no-repeat left center;
+}
+body #tab_copyright a{
+    background: url("../images/copyright.png") no-repeat left center;
+}
+body #tab_404 a{
+    background: url("../images/_error.png") no-repeat left center;
+}
+body #tab_logo a{
+    background: url("../images/logo_favicon.png") no-repeat left center;
+}
+body #tab_TzCustomCss a{
+    background: url("../images/css.png") no-repeat left center;
+}
+body #tab_footeroption a{
+    background: url("../images/icon-footer.png") no-repeat left center;
+}
+body #tab_logo a{
+    background: url("../images/logo_favicon.png") no-repeat left center;
+}
+body #tab_header a{
+    background: url("../images/header.png") no-repeat left center;
+}
+body #tab_TZSingle a{
+    background: url("../images/normal-check.jpg") no-repeat left center;
+}
+body #tab_TZShop a{
+    background: url("../images/shop_cart.png") no-repeat left center;
+}
+body #tab_TZShopCat a{
+    background: url("../images/shop_category.png") no-repeat left center;
+}
+body #tab_TZShop1,
+body #tab_TZShop2,
+body #tab_TZShop3{
+    display: none;
+    border: 0;
+}
+#tab_TZShop{
+    position: relative;
+}
+#tab_TZShop:after {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 7px solid #000;
+    content: "";
+    position: absolute;
+    right: 7px;
+    top: 14px;
+}
+#setting_TZShop{
+    background: url("../images/shop-page.jpg") no-repeat scroll 0 115px rgba(0, 0, 0, 0);
+    min-height: 543px;
+}
+
+#setting_TZShop1{
+    background-image: url("../images/shop-page-section1.jpg");
+    background-position: 0 125px;
+    background-repeat: no-repeat;
+    min-height: 460px;
+}
+#setting_TZShop2{
+    background-image: url("../images/shop-page-section2.jpg");
+    background-position: 0 125px;
+    background-repeat: no-repeat;
+    min-height: 460px;
+}
+#setting_TZShop3{
+    background-image: url("../images/shop-page-section3.jpg");
+    background-position: 0 125px;
+    background-repeat: no-repeat;
+    min-height: 460px;
+}
+body .tzvc_icon{
+    background-image: url("../images/tz.png");
+}
+.option-tree-save-layout{
+    display: none !important;
+}
+/*=======================================
+page style
+========*/
+#portfolio_meta_box .ot-metabox-wrapper .format-settings{
+    margin-bottom: 0 !important;
+}
+#portfolio_meta_box .format-setting-label label{
+    padding: 0 0 15px !important;
+}
+
+/*=======================================
+Metabox
+========*/
+#setting_autoshowroom_portfolio_floating,
+#setting_autoshowroom_portfolio_slideshows_style,
+#setting_autoshowroom_portfolio_slideshows,
+#setting_autoshowroom_portfolio_video_mp4,
+#setting_autoshowroom_portfolio_video_ogv,
+#setting_autoshowroom_portfolio_video_webm,
+#setting_autoshowroom_portfolio_gallery,
+#setting_autoshowroom_portfolio_soundCloud_id,
+#setting_autoshowroom_portfolio_image,
+#setting_autoshowroom_portfolio_Quote_content,
+#setting_autoshowroom_portfolio_Quote_ds{
+    display: none;
+}
+.hide-color-picker{
+    display: block !important;
+}
